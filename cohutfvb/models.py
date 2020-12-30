@@ -17,5 +17,5 @@ class Ecgjvad(models.Model):
 
 
 class Ckree(models.Model):
-    yqfsn = models.OneToOneField('glcmkwkzv.Fbytmhf', null=True, related_name='+')
+    yqfsn = models.OneToOneField('glcmkwkzv.Fbytmhf', on_delete=models.CASCADE, null=True, related_name='+')
     pass

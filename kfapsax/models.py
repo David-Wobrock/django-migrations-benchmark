@@ -13,5 +13,5 @@ class Fxnrayf(models.Model):
 
 
 class Mygda(models.Model):
-    csipywcnvu = models.OneToOneField('zhavbmq.Ybkewg', null=True, related_name='+')
+    csipywcnvu = models.OneToOneField('zhavbmq.Ybkewg', on_delete=models.CASCADE, null=True, related_name='+')
     pass

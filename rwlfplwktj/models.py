@@ -7,5 +7,5 @@ class Thqldbdjm(models.Model):
 
 
 class Yjzzdopc(models.Model):
-    eeagp = models.ForeignKey('rqwywo.Gkiwtx', null=True, related_name='+')
+    eeagp = models.ForeignKey('rqwywo.Gkiwtx', on_delete=models.CASCADE, null=True, related_name='+')
     pass

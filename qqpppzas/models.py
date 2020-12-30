@@ -12,7 +12,7 @@ class Lrqwbz(models.Model):
 
 
 class Igtbspg(models.Model):
-    rhdlydtrdw = models.ForeignKey('etnevwmkj.Noxqha', null=True, related_name='+')
+    rhdlydtrdw = models.ForeignKey('etnevwmkj.Noxqha', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -27,23 +27,23 @@ class Mukbde(models.Model):
     rmdjmdwewd = models.IntegerField(default=0)
     tbklu = models.CharField(default='', max_length=60)
     vdpfetqazw = models.CharField(default='', max_length=113)
-    lzkmi = models.ForeignKey('qclaxc.Jvoopceqsv', null=True, related_name='+')
-    hhunsf = models.OneToOneField('kfapsax.Fxnrayf', null=True, related_name='+')
+    lzkmi = models.ForeignKey('qclaxc.Jvoopceqsv', on_delete=models.CASCADE, null=True, related_name='+')
+    hhunsf = models.OneToOneField('kfapsax.Fxnrayf', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Prljmjou(models.Model):
-    wyhyzaku = models.ForeignKey('wyxbcga.Oblwdacdf', null=True, related_name='+')
+    wyhyzaku = models.ForeignKey('wyxbcga.Oblwdacdf', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Jchddfi(models.Model):
-    uteyef = models.ForeignKey('geemkrwi.Egvtran', null=True, related_name='+')
+    uteyef = models.ForeignKey('geemkrwi.Egvtran', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Shtlozkm(models.Model):
-    zwsomb = models.ForeignKey('wulegwfs.Txgqxz', null=True, related_name='+')
+    zwsomb = models.ForeignKey('wulegwfs.Txgqxz', on_delete=models.CASCADE, null=True, related_name='+')
     hxbwkwebc = models.IntegerField(default=0)
     pass
 
@@ -54,5 +54,5 @@ class Fngqkhhe(models.Model):
 
 
 class Uxswpekqlt(models.Model):
-    febtep = models.OneToOneField('cohutfvb.Ecgjvad', null=True, related_name='+')
+    febtep = models.OneToOneField('cohutfvb.Ecgjvad', on_delete=models.CASCADE, null=True, related_name='+')
     pass

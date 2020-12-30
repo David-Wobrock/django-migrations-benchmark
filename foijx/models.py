@@ -2,12 +2,12 @@ from django.db import models
 
 
 class Flwuyjdlel(models.Model):
-    vvuquay = models.OneToOneField('wulegwfs.Txgqxz', null=True, related_name='+')
+    vvuquay = models.OneToOneField('wulegwfs.Txgqxz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Qqktwujdfq(models.Model):
-    uvyuhhx = models.OneToOneField('wulegwfs.Txgqxz', null=True, related_name='+')
+    uvyuhhx = models.OneToOneField('wulegwfs.Txgqxz', on_delete=models.CASCADE, null=True, related_name='+')
     nivqwidgui = models.CharField(default='', max_length=211)
     pass
 

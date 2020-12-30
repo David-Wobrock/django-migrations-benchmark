@@ -8,19 +8,19 @@ class Hiqedajgiu(models.Model):
 
 
 class Eauslyif(models.Model):
-    zzadgnvsif = models.OneToOneField('etnevwmkj.Ryfwmkefy', null=True, related_name='+')
-    nteiooiikw = models.OneToOneField('wulegwfs.Txgqxz', null=True, related_name='+')
+    zzadgnvsif = models.OneToOneField('etnevwmkj.Ryfwmkefy', on_delete=models.CASCADE, null=True, related_name='+')
+    nteiooiikw = models.OneToOneField('wulegwfs.Txgqxz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Qahkfonewx(models.Model):
-    eckmsf = models.ForeignKey('zxxavsovs.Yjuyutcqq', null=True, related_name='+')
+    eckmsf = models.ForeignKey('zxxavsovs.Yjuyutcqq', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Xrrtgf(models.Model):
     twchfjwyg = models.IntegerField(default=0)
-    prtbwzl = models.OneToOneField('joavhqi.Oyjnlgzy', null=True, related_name='+')
+    prtbwzl = models.OneToOneField('joavhqi.Oyjnlgzy', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -30,8 +30,8 @@ class Kbgdzldxz(models.Model):
 
 
 class Bdontoyqti(models.Model):
-    ywvylo = models.ForeignKey('rwlfplwktj.Thqldbdjm', null=True, related_name='+')
-    wtqko = models.ForeignKey('digmcd.Yymzlvsz', null=True, related_name='+')
+    ywvylo = models.ForeignKey('rwlfplwktj.Thqldbdjm', on_delete=models.CASCADE, null=True, related_name='+')
+    wtqko = models.ForeignKey('digmcd.Yymzlvsz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -59,14 +59,14 @@ class Orofu(models.Model):
 
 
 class Dhynhe(models.Model):
-    sbhgzwzbv = models.ForeignKey('avwpufexob.Fvlkcjd', null=True, related_name='+')
+    sbhgzwzbv = models.ForeignKey('avwpufexob.Fvlkcjd', on_delete=models.CASCADE, null=True, related_name='+')
     nikevgkpn = models.IntegerField(default=0)
     pass
 
 
 class Vnoruiao(models.Model):
-    gtrfnedgq = models.OneToOneField('foijx.Cnkdojs', null=True, related_name='+')
-    mmpdy = models.ForeignKey('wawqcpvrz.Nqohhreonm', null=True, related_name='+')
+    gtrfnedgq = models.OneToOneField('foijx.Cnkdojs', on_delete=models.CASCADE, null=True, related_name='+')
+    mmpdy = models.ForeignKey('wawqcpvrz.Nqohhreonm', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -76,5 +76,5 @@ class Kdfltvrrbx(models.Model):
 
 
 class Cvzddbqplb(models.Model):
-    lekkecrsu = models.ForeignKey('gbsaqmaxu.Knqau', null=True, related_name='+')
+    lekkecrsu = models.ForeignKey('gbsaqmaxu.Knqau', on_delete=models.CASCADE, null=True, related_name='+')
     pass

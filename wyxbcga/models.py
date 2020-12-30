@@ -27,7 +27,7 @@ class Ojshxdt(models.Model):
 
 
 class Begquxerkm(models.Model):
-    sgwqndjc = models.OneToOneField('wyxbcga.Rsaiyadejv', null=True, related_name='+')
+    sgwqndjc = models.OneToOneField('wyxbcga.Rsaiyadejv', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -37,5 +37,5 @@ class Gmclwtufhi(models.Model):
 
 
 class Oblwdacdf(models.Model):
-    eezewl = models.ForeignKey('rqwywo.Huqprglqp', null=True, related_name='+')
+    eezewl = models.ForeignKey('rqwywo.Huqprglqp', on_delete=models.CASCADE, null=True, related_name='+')
     pass

@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Ohfvuo(models.Model):
-    gcobpdpoo = models.OneToOneField('epbbfwihj.Zfpgchkbaz', null=True, related_name='+')
+    gcobpdpoo = models.OneToOneField('epbbfwihj.Zfpgchkbaz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -44,7 +44,7 @@ class Rywmfrbmil(models.Model):
 
 
 class Rnddmd(models.Model):
-    gdhwm = models.ForeignKey('digmcd.Rozpduya', null=True, related_name='+')
+    gdhwm = models.ForeignKey('digmcd.Rozpduya', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

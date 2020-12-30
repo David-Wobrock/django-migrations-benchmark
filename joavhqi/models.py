@@ -2,18 +2,18 @@ from django.db import models
 
 
 class Nizqeesp(models.Model):
-    eijzug = models.OneToOneField('bniworfy.Trjyk', null=True, related_name='+')
+    eijzug = models.OneToOneField('bniworfy.Trjyk', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Iowgy(models.Model):
     rcmqduvnsb = models.IntegerField(default=0)
-    pihqhp = models.ForeignKey('pkfudme.Dbpile', null=True, related_name='+')
+    pihqhp = models.ForeignKey('pkfudme.Dbpile', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Oyjnlgzy(models.Model):
-    jgdrzj = models.ForeignKey('uivaguf.Zwjgfcdi', null=True, related_name='+')
+    jgdrzj = models.ForeignKey('uivaguf.Zwjgfcdi', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -34,5 +34,5 @@ class Rdhhdq(models.Model):
 
 
 class Sabdmpl(models.Model):
-    leietkf = models.OneToOneField('zsskgviadw.Ltlsozji', null=True, related_name='+')
+    leietkf = models.OneToOneField('zsskgviadw.Ltlsozji', on_delete=models.CASCADE, null=True, related_name='+')
     pass

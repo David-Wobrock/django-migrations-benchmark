@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Tjpxiu(models.Model):
-    jauqad = models.OneToOneField('wulegwfs.Txgqxz', null=True, related_name='+')
+    jauqad = models.OneToOneField('wulegwfs.Txgqxz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -13,5 +13,5 @@ class Ztmubrfn(models.Model):
 
 
 class Uonrvb(models.Model):
-    ablgbcaw = models.OneToOneField('ukxhbn.Ikuwr', null=True, related_name='+')
+    ablgbcaw = models.OneToOneField('ukxhbn.Ikuwr', on_delete=models.CASCADE, null=True, related_name='+')
     pass

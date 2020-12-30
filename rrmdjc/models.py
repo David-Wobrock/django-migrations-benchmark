@@ -8,20 +8,20 @@ class Rtbkg(models.Model):
 
 class Guhhjm(models.Model):
     ixxlcmb = models.CharField(default='', max_length=29)
-    kgvpwpy = models.OneToOneField('zsskgviadw.Ylpjiaq', null=True, related_name='+')
+    kgvpwpy = models.OneToOneField('zsskgviadw.Ylpjiaq', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Bwnmpizji(models.Model):
-    swnwv = models.OneToOneField('gcyjx.Xdvbgtxz', null=True, related_name='+')
+    swnwv = models.OneToOneField('gcyjx.Xdvbgtxz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Gxoqulk(models.Model):
-    rlyebux = models.ForeignKey('joavhqi.Iowgy', null=True, related_name='+')
+    rlyebux = models.ForeignKey('joavhqi.Iowgy', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Skeciabygt(models.Model):
-    blyex = models.ForeignKey('cuspknbh.Mwigq', null=True, related_name='+')
+    blyex = models.ForeignKey('cuspknbh.Mwigq', on_delete=models.CASCADE, null=True, related_name='+')
     pass

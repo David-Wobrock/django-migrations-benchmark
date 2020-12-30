@@ -9,7 +9,7 @@ class Yymzlvsz(models.Model):
 
 
 class Xovte(models.Model):
-    fhgkhncfld = models.ForeignKey('tyfslutb.Ynbpgqn', null=True, related_name='+')
+    fhgkhncfld = models.ForeignKey('tyfslutb.Ynbpgqn', on_delete=models.CASCADE, null=True, related_name='+')
     rsvwhn = models.IntegerField(default=0)
     pass
 
@@ -20,12 +20,12 @@ class Untgafvod(models.Model):
 
 
 class Gtekbplhr(models.Model):
-    gzbctv = models.ForeignKey('foijx.Cnkdojs', null=True, related_name='+')
+    gzbctv = models.ForeignKey('foijx.Cnkdojs', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Rdfrrg(models.Model):
-    anylxapd = models.ForeignKey('ftcfrcnas.Lqfdippdc', null=True, related_name='+')
+    anylxapd = models.ForeignKey('ftcfrcnas.Lqfdippdc', on_delete=models.CASCADE, null=True, related_name='+')
     nkkfvqupui = models.CharField(default='', max_length=180)
     pass
 
@@ -37,30 +37,30 @@ class Zyjgcrtsvt(models.Model):
 
 
 class Xmvhvzui(models.Model):
-    tffnbk = models.ForeignKey('uivaguf.Zwjgfcdi', null=True, related_name='+')
+    tffnbk = models.ForeignKey('uivaguf.Zwjgfcdi', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Zaganduq(models.Model):
-    bxgqiay = models.OneToOneField('emncdxt.Gnxmv', null=True, related_name='+')
+    bxgqiay = models.OneToOneField('emncdxt.Gnxmv', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Krbaxhjpkp(models.Model):
     rzllxxpr = models.CharField(default='', max_length=20)
-    pgyav = models.OneToOneField('avwpufexob.Aunuwoo', null=True, related_name='+')
+    pgyav = models.OneToOneField('avwpufexob.Aunuwoo', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Lemzs(models.Model):
     csflnkvdne = models.IntegerField(default=0)
-    qaull = models.OneToOneField('zsskgviadw.Ylpjiaq', null=True, related_name='+')
+    qaull = models.OneToOneField('zsskgviadw.Ylpjiaq', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Mqnavvvb(models.Model):
     qguzrxggsd = models.IntegerField(default=0)
-    akttuw = models.OneToOneField('cuspknbh.Mwigq', null=True, related_name='+')
+    akttuw = models.OneToOneField('cuspknbh.Mwigq', on_delete=models.CASCADE, null=True, related_name='+')
     tffxa = models.CharField(default='', max_length=157)
     pass
 

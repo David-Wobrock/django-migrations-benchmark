@@ -13,8 +13,8 @@ class Djbbtxk(models.Model):
 
 
 class Ufrkff(models.Model):
-    wdarprrrnm = models.OneToOneField('foijx.Cnkdojs', null=True, related_name='+')
-    wxfwt = models.ForeignKey('geemkrwi.Mxvmqmhku', null=True, related_name='+')
+    wdarprrrnm = models.OneToOneField('foijx.Cnkdojs', on_delete=models.CASCADE, null=True, related_name='+')
+    wxfwt = models.ForeignKey('geemkrwi.Mxvmqmhku', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -29,14 +29,14 @@ class Mbcah(models.Model):
 
 
 class Qotakup(models.Model):
-    mhctlvnto = models.ForeignKey('pnxyvqx.Nenfvguk', null=True, related_name='+')
+    mhctlvnto = models.ForeignKey('pnxyvqx.Nenfvguk', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Estwpd(models.Model):
-    kbqdngbtb = models.OneToOneField('foijx.Cnkdojs', null=True, related_name='+')
+    kbqdngbtb = models.OneToOneField('foijx.Cnkdojs', on_delete=models.CASCADE, null=True, related_name='+')
     abdlqrp = models.IntegerField(default=0)
-    fjcmnwx = models.OneToOneField('zsskgviadw.Ylpjiaq', null=True, related_name='+')
+    fjcmnwx = models.OneToOneField('zsskgviadw.Ylpjiaq', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

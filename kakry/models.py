@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Ajbkovws(models.Model):
-    rlsejr = models.ForeignKey('cuspknbh.Djbbtxk', null=True, related_name='+')
+    rlsejr = models.ForeignKey('cuspknbh.Djbbtxk', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -17,8 +17,8 @@ class Kiurw(models.Model):
 
 
 class Lmxjryphro(models.Model):
-    kkqmbqbmvt = models.OneToOneField('emncdxt.Yvgnpangr', null=True, related_name='+')
-    qsochd = models.ForeignKey('ruvaymw.Wmifd', null=True, related_name='+')
+    kkqmbqbmvt = models.OneToOneField('emncdxt.Yvgnpangr', on_delete=models.CASCADE, null=True, related_name='+')
+    qsochd = models.ForeignKey('ruvaymw.Wmifd', on_delete=models.CASCADE, null=True, related_name='+')
     opnuy = models.CharField(default='', max_length=76)
     pass
 

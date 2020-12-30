@@ -2,12 +2,12 @@ from django.db import models
 
 
 class Copkdxcnlp(models.Model):
-    dxxrlkeigl = models.ForeignKey('joavhqi.Oyjnlgzy', null=True, related_name='+')
+    dxxrlkeigl = models.ForeignKey('joavhqi.Oyjnlgzy', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Ihswfvupi(models.Model):
-    fmuxala = models.ForeignKey('yiupu.Zzsheqzf', null=True, related_name='+')
+    fmuxala = models.ForeignKey('yiupu.Zzsheqzf', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -38,7 +38,7 @@ class Ixmfsgch(models.Model):
 
 
 class Ckvpx(models.Model):
-    necukbga = models.OneToOneField('pnxyvqx.Nenfvguk', null=True, related_name='+')
+    necukbga = models.OneToOneField('pnxyvqx.Nenfvguk', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

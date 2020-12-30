@@ -7,7 +7,7 @@ class Fiellmltob(models.Model):
 
 
 class Iyfiu(models.Model):
-    druuyy = models.OneToOneField('mjdxvqk.Ovbcnxcwyr', null=True, related_name='+')
+    druuyy = models.OneToOneField('mjdxvqk.Ovbcnxcwyr', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -17,8 +17,8 @@ class Yjuyutcqq(models.Model):
 
 
 class Kiikphbz(models.Model):
-    uahjszmx = models.ForeignKey('pkfudme.Mnvmeraq', null=True, related_name='+')
-    mmihsfipg = models.ForeignKey('gcyjx.Xdvbgtxz', null=True, related_name='+')
+    uahjszmx = models.ForeignKey('pkfudme.Mnvmeraq', on_delete=models.CASCADE, null=True, related_name='+')
+    mmihsfipg = models.ForeignKey('gcyjx.Xdvbgtxz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

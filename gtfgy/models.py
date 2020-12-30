@@ -7,7 +7,7 @@ class Rqjyygz(models.Model):
 
 
 class Lbhtyfzldr(models.Model):
-    oqurkjppqv = models.ForeignKey('wawqcpvrz.Xivomw', null=True, related_name='+')
+    oqurkjppqv = models.ForeignKey('wawqcpvrz.Xivomw', on_delete=models.CASCADE, null=True, related_name='+')
     bqpchgui = models.CharField(default='', max_length=167)
     pass
 
@@ -18,15 +18,15 @@ class Rykamine(models.Model):
 
 
 class Xlaxaa(models.Model):
-    etvtohrz = models.OneToOneField('rrmdjc.Gxoqulk', null=True, related_name='+')
+    etvtohrz = models.OneToOneField('rrmdjc.Gxoqulk', on_delete=models.CASCADE, null=True, related_name='+')
     jihubfhawn = models.IntegerField(default=0)
     pass
 
 
 class Wnhvelxdeb(models.Model):
     wzjxuchvek = models.CharField(default='', max_length=16)
-    pmnxtsvlq = models.ForeignKey('cohutfvb.Livljpedso', null=True, related_name='+')
-    zhuhn = models.OneToOneField('mjdxvqk.Unnnbu', null=True, related_name='+')
+    pmnxtsvlq = models.ForeignKey('cohutfvb.Livljpedso', on_delete=models.CASCADE, null=True, related_name='+')
+    zhuhn = models.OneToOneField('mjdxvqk.Unnnbu', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -36,21 +36,21 @@ class Swasd(models.Model):
 
 
 class Niwaoqfft(models.Model):
-    serhcyqy = models.ForeignKey('wyxbcga.Eezxvbbvmn', null=True, related_name='+')
+    serhcyqy = models.ForeignKey('wyxbcga.Eezxvbbvmn', on_delete=models.CASCADE, null=True, related_name='+')
     scqnrmm = models.CharField(default='', max_length=126)
     pass
 
 
 class Yrekcfrkl(models.Model):
-    tidjkv = models.ForeignKey('ftcfrcnas.Myohdht', null=True, related_name='+')
-    jnsjmikrnw = models.OneToOneField('cuspknbh.Djbbtxk', null=True, related_name='+')
+    tidjkv = models.ForeignKey('ftcfrcnas.Myohdht', on_delete=models.CASCADE, null=True, related_name='+')
+    jnsjmikrnw = models.OneToOneField('cuspknbh.Djbbtxk', on_delete=models.CASCADE, null=True, related_name='+')
     ydkkfuieab = models.IntegerField(default=0)
     gvytprt = models.IntegerField(default=0)
     pass
 
 
 class Ftwph(models.Model):
-    thrfoimmzd = models.ForeignKey('tyfslutb.Qhzppcqwku', null=True, related_name='+')
+    thrfoimmzd = models.ForeignKey('tyfslutb.Qhzppcqwku', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -60,5 +60,5 @@ class Fnrijid(models.Model):
 
 
 class Ohftljcts(models.Model):
-    wokzt = models.OneToOneField('zavygg.Jydvnf', null=True, related_name='+')
+    wokzt = models.OneToOneField('zavygg.Jydvnf', on_delete=models.CASCADE, null=True, related_name='+')
     pass

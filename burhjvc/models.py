@@ -7,20 +7,20 @@ class Bewsptdyqv(models.Model):
 
 
 class Aziftfctf(models.Model):
-    fhxldzom = models.ForeignKey('zavygg.Jydvnf', null=True, related_name='+')
+    fhxldzom = models.ForeignKey('zavygg.Jydvnf', on_delete=models.CASCADE, null=True, related_name='+')
     splbqgxm = models.IntegerField(default=0)
-    abznn = models.ForeignKey('ygnakzgjxu.Xdwhlpqgw', null=True, related_name='+')
+    abznn = models.ForeignKey('ygnakzgjxu.Xdwhlpqgw', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Pdzdhpq(models.Model):
-    bwexzs = models.OneToOneField('rqwywo.Gkiwtx', null=True, related_name='+')
+    bwexzs = models.OneToOneField('rqwywo.Gkiwtx', on_delete=models.CASCADE, null=True, related_name='+')
     qgnduxrb = models.IntegerField(default=0)
     pass
 
 
 class Ubeubsuez(models.Model):
-    jyjwhl = models.OneToOneField('cuspknbh.Ufrkff', null=True, related_name='+')
+    jyjwhl = models.OneToOneField('cuspknbh.Ufrkff', on_delete=models.CASCADE, null=True, related_name='+')
     jowmt = models.CharField(default='', max_length=9)
     fnkolibgw = models.IntegerField(default=0)
     ncyvf = models.IntegerField(default=0)
@@ -34,7 +34,7 @@ class Oilvk(models.Model):
 
 class Jnyynhgbb(models.Model):
     kasrh = models.IntegerField(default=0)
-    iqfzdixyt = models.OneToOneField('ruvaymw.Faqagt', null=True, related_name='+')
+    iqfzdixyt = models.OneToOneField('ruvaymw.Faqagt', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

@@ -2,9 +2,9 @@ from django.db import models
 
 
 class Yejdqycpmg(models.Model):
-    znlynydhet = models.OneToOneField('gcyjx.Nmbztrlh', null=True, related_name='+')
+    znlynydhet = models.OneToOneField('gcyjx.Nmbztrlh', on_delete=models.CASCADE, null=True, related_name='+')
     grygcsjy = models.CharField(default='', max_length=254)
-    oyjbjizqf = models.OneToOneField('joavhqi.Sabdmpl', null=True, related_name='+')
+    oyjbjizqf = models.OneToOneField('joavhqi.Sabdmpl', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -14,7 +14,7 @@ class Nhpkrhkql(models.Model):
 
 
 class Fvlkcjd(models.Model):
-    jqpablwvw = models.OneToOneField('rqwywo.Lxcurbmhu', null=True, related_name='+')
+    jqpablwvw = models.OneToOneField('rqwywo.Lxcurbmhu', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Cdardz(models.Model):
-    hmjcjayr = models.ForeignKey('pnxyvqx.Aehywz', null=True, related_name='+')
+    hmjcjayr = models.ForeignKey('pnxyvqx.Aehywz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -21,7 +21,7 @@ class Qibygpddzw(models.Model):
 
 
 class Sukkrqb(models.Model):
-    slilak = models.ForeignKey('etnevwmkj.Ryfwmkefy', null=True, related_name='+')
+    slilak = models.ForeignKey('etnevwmkj.Ryfwmkefy', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -32,7 +32,7 @@ class Lqfdippdc(models.Model):
 
 class Iwhkq(models.Model):
     xtdreu = models.CharField(default='', max_length=87)
-    rntdufqh = models.OneToOneField('burhjvc.Aziftfctf', null=True, related_name='+')
+    rntdufqh = models.OneToOneField('burhjvc.Aziftfctf', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -52,15 +52,15 @@ class Kkkuodosbi(models.Model):
 
 
 class Zcanykbqv(models.Model):
-    snjyvvilgo = models.OneToOneField('adlorvp.Kmygwyorsi', null=True, related_name='+')
+    snjyvvilgo = models.OneToOneField('adlorvp.Kmygwyorsi', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Fmzwd(models.Model):
-    anrkionx = models.ForeignKey('qclaxc.Hlpgeaqix', null=True, related_name='+')
+    anrkionx = models.ForeignKey('qclaxc.Hlpgeaqix', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Mblprepscx(models.Model):
-    lovkg = models.ForeignKey('zavygg.Jydvnf', null=True, related_name='+')
+    lovkg = models.ForeignKey('zavygg.Jydvnf', on_delete=models.CASCADE, null=True, related_name='+')
     pass

@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Ikuwr(models.Model):
-    vmxtci = models.OneToOneField('qqpppzas.Mukbde', null=True, related_name='+')
+    vmxtci = models.OneToOneField('qqpppzas.Mukbde', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -17,5 +17,5 @@ class Qujmudiaaa(models.Model):
 
 
 class Aciaff(models.Model):
-    dztjqxsufg = models.ForeignKey('rqwywo.Trhinrdlr', null=True, related_name='+')
+    dztjqxsufg = models.ForeignKey('rqwywo.Trhinrdlr', on_delete=models.CASCADE, null=True, related_name='+')
     pass

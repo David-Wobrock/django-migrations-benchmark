@@ -7,5 +7,5 @@ class Txgqxz(models.Model):
 
 
 class Wseerbko(models.Model):
-    prcqiis = models.OneToOneField('esznwrr.Kgrzxxm', null=True, related_name='+')
+    prcqiis = models.OneToOneField('esznwrr.Kgrzxxm', on_delete=models.CASCADE, null=True, related_name='+')
     pass

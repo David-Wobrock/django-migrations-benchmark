@@ -7,13 +7,13 @@ class Uajrm(models.Model):
 
 
 class Yswziiulyl(models.Model):
-    frtrjxbaxz = models.OneToOneField('self', null=True, related_name='+')
+    frtrjxbaxz = models.OneToOneField('self', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Ooecads(models.Model):
     kjhiytbp = models.IntegerField(default=0)
-    wbopjvbl = models.OneToOneField('bniworfy.Trjyk', null=True, related_name='+')
+    wbopjvbl = models.OneToOneField('bniworfy.Trjyk', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -23,12 +23,12 @@ class Jvoopceqsv(models.Model):
 
 
 class Hlpgeaqix(models.Model):
-    xrfgwsb = models.ForeignKey('ukxhbn.Qujmudiaaa', null=True, related_name='+')
+    xrfgwsb = models.ForeignKey('ukxhbn.Qujmudiaaa', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Ggafntnbq(models.Model):
-    jdpsqeljc = models.OneToOneField('wulegwfs.Wseerbko', null=True, related_name='+')
+    jdpsqeljc = models.OneToOneField('wulegwfs.Wseerbko', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -38,7 +38,7 @@ class Pjboumq(models.Model):
 
 
 class Ilngaq(models.Model):
-    arwhqp = models.ForeignKey('avwpufexob.Yejdqycpmg', null=True, related_name='+')
+    arwhqp = models.ForeignKey('avwpufexob.Yejdqycpmg', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -48,5 +48,5 @@ class Epikaaneig(models.Model):
 
 
 class Riwryjw(models.Model):
-    siaeiy = models.OneToOneField('mjdxvqk.Unnnbu', null=True, related_name='+')
+    siaeiy = models.OneToOneField('mjdxvqk.Unnnbu', on_delete=models.CASCADE, null=True, related_name='+')
     pass

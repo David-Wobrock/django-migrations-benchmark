@@ -27,7 +27,7 @@ class Ehcuyeglmi(models.Model):
 
 
 class Sxjglqejbx(models.Model):
-    gvukurady = models.ForeignKey('pnxyvqx.Nenfvguk', null=True, related_name='+')
+    gvukurady = models.ForeignKey('pnxyvqx.Nenfvguk', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

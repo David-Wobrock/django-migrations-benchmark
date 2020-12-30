@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Zfpgchkbaz(models.Model):
-    jlias = models.OneToOneField('irmtbds.Rqikftw', null=True, related_name='+')
+    jlias = models.OneToOneField('irmtbds.Rqikftw', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -20,7 +20,7 @@ class Apnbivckq(models.Model):
 
 
 class Sysnlv(models.Model):
-    ybqvecvb = models.OneToOneField('apbqku.Tjpxiu', null=True, related_name='+')
+    ybqvecvb = models.OneToOneField('apbqku.Tjpxiu', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -30,5 +30,5 @@ class Dfjxgqll(models.Model):
 
 
 class Esslxuzogo(models.Model):
-    gfvxxvbo = models.ForeignKey('kfapsax.Fxnrayf', null=True, related_name='+')
+    gfvxxvbo = models.ForeignKey('kfapsax.Fxnrayf', on_delete=models.CASCADE, null=True, related_name='+')
     pass

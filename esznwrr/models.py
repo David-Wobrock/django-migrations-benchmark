@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Kgrzxxm(models.Model):
-    vjwqsryeb = models.ForeignKey('joavhqi.Oyjnlgzy', null=True, related_name='+')
+    vjwqsryeb = models.ForeignKey('joavhqi.Oyjnlgzy', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -12,5 +12,5 @@ class Tbxjbiqnck(models.Model):
 
 
 class Wgtirf(models.Model):
-    ulpzex = models.ForeignKey('irmtbds.Rqikftw', null=True, related_name='+')
+    ulpzex = models.ForeignKey('irmtbds.Rqikftw', on_delete=models.CASCADE, null=True, related_name='+')
     pass

@@ -3,12 +3,12 @@ from django.db import models
 
 class Yvgnpangr(models.Model):
     ljyaq = models.CharField(default='', max_length=45)
-    pibin = models.OneToOneField('rwlfplwktj.Thqldbdjm', null=True, related_name='+')
+    pibin = models.OneToOneField('rwlfplwktj.Thqldbdjm', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Mioxdvg(models.Model):
-    xnynvbsy = models.OneToOneField('digmcd.Xmvhvzui', null=True, related_name='+')
+    xnynvbsy = models.OneToOneField('digmcd.Xmvhvzui', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

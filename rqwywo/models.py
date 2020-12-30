@@ -2,17 +2,17 @@ from django.db import models
 
 
 class Uxpep(models.Model):
-    jjioaflyak = models.OneToOneField('foijx.Flwuyjdlel', null=True, related_name='+')
+    jjioaflyak = models.OneToOneField('foijx.Flwuyjdlel', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Lxcurbmhu(models.Model):
-    ecotjsdibe = models.OneToOneField('ftcfrcnas.Cukzic', null=True, related_name='+')
+    ecotjsdibe = models.OneToOneField('ftcfrcnas.Cukzic', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Gkiwtx(models.Model):
-    akbmd = models.ForeignKey('apbqku.Ztmubrfn', null=True, related_name='+')
+    akbmd = models.ForeignKey('apbqku.Ztmubrfn', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -27,16 +27,16 @@ class Mahcgzunnb(models.Model):
 
 
 class Jsvynw(models.Model):
-    ommyuemmir = models.OneToOneField('rwlfplwktj.Yjzzdopc', null=True, related_name='+')
+    ommyuemmir = models.OneToOneField('rwlfplwktj.Yjzzdopc', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Rrojp(models.Model):
-    saknhbe = models.ForeignKey('kfapsax.Zvpuolsnx', null=True, related_name='+')
+    saknhbe = models.ForeignKey('kfapsax.Zvpuolsnx', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Trhinrdlr(models.Model):
     zqfgtvrg = models.IntegerField(default=0)
-    mcuktvuoy = models.ForeignKey('zngxahi.Hiqedajgiu', null=True, related_name='+')
+    mcuktvuoy = models.ForeignKey('zngxahi.Hiqedajgiu', on_delete=models.CASCADE, null=True, related_name='+')
     pass

@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Mnvmeraq(models.Model):
-    uxahumnfu = models.OneToOneField('foijx.Flwuyjdlel', null=True, related_name='+')
+    uxahumnfu = models.OneToOneField('foijx.Flwuyjdlel', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -25,7 +25,7 @@ class Cfjtqbcmjd(models.Model):
 
 
 class Heehdxfqyb(models.Model):
-    jdhsuwxapo = models.OneToOneField('qqpppzas.Ybcxw', null=True, related_name='+')
+    jdhsuwxapo = models.OneToOneField('qqpppzas.Ybcxw', on_delete=models.CASCADE, null=True, related_name='+')
     xobdnqb = models.CharField(default='', max_length=236)
     pass
 
@@ -41,12 +41,12 @@ class Dbpile(models.Model):
 
 
 class Jrppdzds(models.Model):
-    trqdjcjqq = models.OneToOneField('pkfudme.Ewxxluebq', null=True, related_name='+')
+    trqdjcjqq = models.OneToOneField('pkfudme.Ewxxluebq', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Fkazepju(models.Model):
-    ocsozfc = models.ForeignKey('gbsaqmaxu.Knqau', null=True, related_name='+')
+    ocsozfc = models.ForeignKey('gbsaqmaxu.Knqau', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

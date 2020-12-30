@@ -30,13 +30,13 @@ class Egvtran(models.Model):
 
 class Hxkigetost(models.Model):
     egtpieu = models.CharField(default='', max_length=50)
-    gvsmh = models.OneToOneField('gtfgy.Fnrijid', null=True, related_name='+')
+    gvsmh = models.OneToOneField('gtfgy.Fnrijid', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Knrrd(models.Model):
-    tgykwsrkc = models.ForeignKey('avwpufexob.Fvlkcjd', null=True, related_name='+')
-    hwqsq = models.OneToOneField('kakry.Wnbhmzvze', null=True, related_name='+')
+    tgykwsrkc = models.ForeignKey('avwpufexob.Fvlkcjd', on_delete=models.CASCADE, null=True, related_name='+')
+    hwqsq = models.OneToOneField('kakry.Wnbhmzvze', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 

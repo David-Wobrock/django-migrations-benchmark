@@ -8,5 +8,5 @@ class Ltlsozji(models.Model):
 
 class Ylpjiaq(models.Model):
     yxrkt = models.IntegerField(default=0)
-    oztnvztcg = models.OneToOneField('ladqux.Rrijbgjqxe', null=True, related_name='+')
+    oztnvztcg = models.OneToOneField('ladqux.Rrijbgjqxe', on_delete=models.CASCADE, null=True, related_name='+')
     pass

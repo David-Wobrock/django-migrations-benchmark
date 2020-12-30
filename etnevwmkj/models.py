@@ -5,12 +5,12 @@ class Ryfwmkefy(models.Model):
     bradgz = models.CharField(default='', max_length=159)
     ncboylifgw = models.IntegerField(default=0)
     zvqshxs = models.CharField(default='', max_length=69)
-    riavbagu = models.OneToOneField('pnxyvqx.Zhsexma', null=True, related_name='+')
+    riavbagu = models.OneToOneField('pnxyvqx.Zhsexma', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Wpkevitz(models.Model):
-    lunhbax = models.ForeignKey('zhavbmq.Vzhhl', null=True, related_name='+')
+    lunhbax = models.ForeignKey('zhavbmq.Vzhhl', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
@@ -22,12 +22,12 @@ class Noxqha(models.Model):
 
 
 class Hubxq(models.Model):
-    ujnabnx = models.ForeignKey('qqpppzas.Igtbspg', null=True, related_name='+')
+    ujnabnx = models.ForeignKey('qqpppzas.Igtbspg', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
 class Mbkkuilliw(models.Model):
-    cyqufojbwa = models.OneToOneField('zxxavsovs.Kiikphbz', null=True, related_name='+')
+    cyqufojbwa = models.OneToOneField('zxxavsovs.Kiikphbz', on_delete=models.CASCADE, null=True, related_name='+')
     pass
 
 
