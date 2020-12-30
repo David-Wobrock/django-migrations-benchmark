@@ -20,12 +20,12 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ftwph',
             name='thrfoimmzd',
-            field=models.ForeignKey(null=True, related_name='+', to='tyfslutb.Qhzppcqwku'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='tyfslutb.Qhzppcqwku'),
         ),
         migrations.AddField(
             model_name='symqs',
             name='cdcocpyto',
-            field=models.ForeignKey(null=True, related_name='+', to='irmtbds.Rqikftw'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='irmtbds.Rqikftw'),
         ),
         migrations.AddField(
             model_name='yrekcfrkl',

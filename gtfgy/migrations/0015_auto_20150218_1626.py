@@ -16,12 +16,12 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='symqs',
             name='cuean',
-            field=models.ForeignKey(null=True, related_name='+', to='zxxavsovs.Aeaoqky'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zxxavsovs.Aeaoqky'),
         ),
         migrations.AddField(
             model_name='wnhvelxdeb',
             name='zhuhn',
-            field=models.OneToOneField(null=True, related_name='+', to='mjdxvqk.Unnnbu'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='mjdxvqk.Unnnbu'),
         ),
         migrations.AddField(
             model_name='xlaxaa',

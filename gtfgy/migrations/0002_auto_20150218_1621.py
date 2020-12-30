@@ -21,16 +21,16 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='xqcngusl',
             name='vgeuicxo',
-            field=models.OneToOneField(null=True, related_name='+', to='khwbgr.Qsqcspjrgx'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='khwbgr.Qsqcspjrgx'),
         ),
         migrations.AddField(
             model_name='xlaxaa',
             name='etvtohrz',
-            field=models.OneToOneField(null=True, related_name='+', to='rrmdjc.Gxoqulk'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='rrmdjc.Gxoqulk'),
         ),
         migrations.AddField(
             model_name='rykamine',
             name='ofjjiorcjg',
-            field=models.OneToOneField(null=True, related_name='+', to='ladqux.Yxjjlex'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ladqux.Yxjjlex'),
         ),
     ]

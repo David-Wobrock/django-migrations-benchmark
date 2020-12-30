@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Bemqls',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('kiknreazyv', models.ForeignKey(null=True, related_name='+', to='rrmdjc.Gxoqulk')),
+                ('kiknreazyv', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='rrmdjc.Gxoqulk')),
             ],
         ),
         migrations.CreateModel(
@@ -30,7 +30,7 @@ class Migration(migrations.Migration):
             name='Rqzheruyb',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('xknvpfy', models.ForeignKey(null=True, related_name='+', to='gtfgy.Xqcngusl')),
+                ('xknvpfy', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='gtfgy.Xqcngusl')),
             ],
         ),
     ]

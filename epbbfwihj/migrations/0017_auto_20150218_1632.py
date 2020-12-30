@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Esslxuzogo',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('gfvxxvbo', models.ForeignKey(null=True, related_name='+', to='kfapsax.Fxnrayf')),
+                ('gfvxxvbo', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='kfapsax.Fxnrayf')),
             ],
         ),
         migrations.RemoveField(

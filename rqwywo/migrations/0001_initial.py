@@ -36,19 +36,19 @@ class Migration(migrations.Migration):
             name='Uxpep',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('wognfx', models.ForeignKey(null=True, related_name='+', to='zsskgviadw.Inyvz')),
+                ('wognfx', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zsskgviadw.Inyvz')),
             ],
         ),
         migrations.CreateModel(
             name='Xaszfxobvf',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('iskdepqo', models.OneToOneField(null=True, related_name='+', to='ukxhbn.Xtmekz')),
+                ('iskdepqo', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ukxhbn.Xtmekz')),
             ],
         ),
         migrations.AddField(
             model_name='gkiwtx',
             name='ouofvgrgp',
-            field=models.ForeignKey(null=True, related_name='+', to='rqwywo.Lxcurbmhu'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='rqwywo.Lxcurbmhu'),
         ),
     ]

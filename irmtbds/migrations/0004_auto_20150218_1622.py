@@ -22,6 +22,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='bemqls',
             name='aedocfocsn',
-            field=models.ForeignKey(null=True, related_name='+', to='wyxbcga.Kpjlirt'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='wyxbcga.Kpjlirt'),
         ),
     ]

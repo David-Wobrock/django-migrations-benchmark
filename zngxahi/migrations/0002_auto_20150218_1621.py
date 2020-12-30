@@ -17,12 +17,12 @@ class Migration(migrations.Migration):
             name='Orofu',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('ciuhnrivc', models.OneToOneField(null=True, related_name='+', to='glcmkwkzv.Unnork')),
+                ('ciuhnrivc', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='glcmkwkzv.Unnork')),
             ],
         ),
         migrations.AddField(
             model_name='bdontoyqti',
             name='jwrsyvtia',
-            field=models.OneToOneField(null=True, related_name='+', to='cuspknbh.Djbbtxk'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cuspknbh.Djbbtxk'),
         ),
     ]

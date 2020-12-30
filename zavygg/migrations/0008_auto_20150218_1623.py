@@ -27,6 +27,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ligxr',
             name='kfznkinf',
-            field=models.OneToOneField(null=True, related_name='+', to='uivaguf.Ubuhm'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='uivaguf.Ubuhm'),
         ),
     ]

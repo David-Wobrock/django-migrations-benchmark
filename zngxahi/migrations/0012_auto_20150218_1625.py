@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='bdontoyqti',
             name='ywvylo',
-            field=models.ForeignKey(null=True, related_name='+', to='rwlfplwktj.Thqldbdjm'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='rwlfplwktj.Thqldbdjm'),
         ),
         migrations.AddField(
             model_name='dhynhe',
@@ -42,7 +42,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='llnksobygh',
             name='mfhovgyh',
-            field=models.ForeignKey(null=True, related_name='+', to='qqpppzas.Xcuutwsyfn'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='qqpppzas.Xcuutwsyfn'),
         ),
         migrations.AddField(
             model_name='nxqpxgzt',

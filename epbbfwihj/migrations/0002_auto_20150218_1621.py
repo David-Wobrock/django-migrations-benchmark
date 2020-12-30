@@ -17,21 +17,21 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='zfpgchkbaz',
             name='yttrt',
-            field=models.ForeignKey(null=True, related_name='+', to='ukxhbn.Dcphul'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ukxhbn.Dcphul'),
         ),
         migrations.AddField(
             model_name='uzdthbetj',
             name='cmzqytyp',
-            field=models.OneToOneField(null=True, related_name='+', to='gbsaqmaxu.Avwudusy'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='gbsaqmaxu.Avwudusy'),
         ),
         migrations.AddField(
             model_name='uwaayy',
             name='jtpsyn',
-            field=models.OneToOneField(null=True, related_name='+', to='qclaxc.Yiifw'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='qclaxc.Yiifw'),
         ),
         migrations.AddField(
             model_name='pbnaktpzhs',
             name='ixryziwdzn',
-            field=models.OneToOneField(null=True, related_name='+', to='qclaxc.Bfnecf'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='qclaxc.Bfnecf'),
         ),
     ]

@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='hxkigetost',
             name='ycqitjgln',
-            field=models.ForeignKey(null=True, related_name='+', to='qclaxc.Yswziiulyl'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='qclaxc.Yswziiulyl'),
         ),
         migrations.AddField(
             model_name='mxvtxbqsa',

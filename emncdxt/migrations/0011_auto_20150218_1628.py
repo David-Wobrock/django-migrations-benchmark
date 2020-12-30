@@ -31,7 +31,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='mioxdvg',
             name='xnynvbsy',
-            field=models.OneToOneField(null=True, related_name='+', to='digmcd.Xmvhvzui'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='digmcd.Xmvhvzui'),
         ),
         migrations.AddField(
             model_name='shgjep',
@@ -41,6 +41,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='yvgnpangr',
             name='pibin',
-            field=models.OneToOneField(null=True, related_name='+', to='rwlfplwktj.Thqldbdjm'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='rwlfplwktj.Thqldbdjm'),
         ),
     ]

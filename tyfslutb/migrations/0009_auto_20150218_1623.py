@@ -38,21 +38,21 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ckvpx',
             name='necukbga',
-            field=models.OneToOneField(null=True, related_name='+', to='pnxyvqx.Nenfvguk'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='pnxyvqx.Nenfvguk'),
         ),
         migrations.AddField(
             model_name='cvzmphnk',
             name='bcxikdtwa',
-            field=models.OneToOneField(null=True, related_name='+', to='gtfgy.Niwaoqfft'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='gtfgy.Niwaoqfft'),
         ),
         migrations.AddField(
             model_name='juemb',
             name='behscfzjv',
-            field=models.ForeignKey(null=True, related_name='+', to='emncdxt.Yvgnpangr'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='emncdxt.Yvgnpangr'),
         ),
         migrations.AddField(
             model_name='ynbpgqn',
             name='ninzjz',
-            field=models.ForeignKey(null=True, related_name='+', to='qqpppzas.Fngqkhhe'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='qqpppzas.Fngqkhhe'),
         ),
     ]

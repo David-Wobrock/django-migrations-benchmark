@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Mahcgzunnb',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('jytvvd', models.ForeignKey(null=True, related_name='+', to='digmcd.Untgafvod')),
+                ('jytvvd', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='digmcd.Untgafvod')),
             ],
         ),
     ]

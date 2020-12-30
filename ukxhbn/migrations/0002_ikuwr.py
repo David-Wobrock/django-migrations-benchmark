@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Ikuwr',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('vmxtci', models.OneToOneField(null=True, related_name='+', to='qqpppzas.Mukbde')),
+                ('vmxtci', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='qqpppzas.Mukbde')),
             ],
         ),
     ]

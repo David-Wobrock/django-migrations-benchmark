@@ -36,12 +36,12 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ftwph',
             name='gulgng',
-            field=models.OneToOneField(null=True, related_name='+', to='emncdxt.Ktiod'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='emncdxt.Ktiod'),
         ),
         migrations.AddField(
             model_name='lbhtyfzldr',
             name='oqurkjppqv',
-            field=models.ForeignKey(null=True, related_name='+', to='wawqcpvrz.Xivomw'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='wawqcpvrz.Xivomw'),
         ),
         migrations.AddField(
             model_name='swasd',
@@ -51,6 +51,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='yrekcfrkl',
             name='vgwig',
-            field=models.ForeignKey(null=True, related_name='+', to='khwbgr.Ywojvtbwa'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='khwbgr.Ywojvtbwa'),
         ),
     ]

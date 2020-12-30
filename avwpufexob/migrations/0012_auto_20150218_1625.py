@@ -18,6 +18,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='fvlkcjd',
             name='jqpablwvw',
-            field=models.OneToOneField(null=True, related_name='+', to='rqwywo.Lxcurbmhu'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='rqwywo.Lxcurbmhu'),
         ),
     ]

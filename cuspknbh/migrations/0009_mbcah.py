@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Mbcah',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('ddbfeooid', models.ForeignKey(null=True, related_name='+', to='cohutfvb.Crzqih')),
+                ('ddbfeooid', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cohutfvb.Crzqih')),
             ],
         ),
     ]

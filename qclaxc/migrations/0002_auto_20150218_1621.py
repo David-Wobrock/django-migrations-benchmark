@@ -20,31 +20,31 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='rmtucrztaq',
             name='heducuype',
-            field=models.OneToOneField(null=True, related_name='+', to='zhavbmq.Bdniaupe'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='zhavbmq.Bdniaupe'),
         ),
         migrations.AddField(
             model_name='qindcumiy',
             name='rwtwpy',
-            field=models.ForeignKey(null=True, related_name='+', to='tyfslutb.Qhzppcqwku'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='tyfslutb.Qhzppcqwku'),
         ),
         migrations.AddField(
             model_name='pmcbxoetr',
             name='npfpduxdlb',
-            field=models.ForeignKey(null=True, related_name='+', to='ukxhbn.Dcphul'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ukxhbn.Dcphul'),
         ),
         migrations.AddField(
             model_name='ooecads',
             name='nflopwecc',
-            field=models.ForeignKey(null=True, related_name='+', to='kfapsax.Kmwzcb'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='kfapsax.Kmwzcb'),
         ),
         migrations.AddField(
             model_name='ladoumxyr',
             name='rophhewd',
-            field=models.ForeignKey(null=True, related_name='+', to='ladqux.Yxjjlex'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ladqux.Yxjjlex'),
         ),
         migrations.AddField(
             model_name='jvoopceqsv',
             name='icswoha',
-            field=models.OneToOneField(null=True, related_name='+', to='geemkrwi.Meymafbbi'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='geemkrwi.Meymafbbi'),
         ),
     ]

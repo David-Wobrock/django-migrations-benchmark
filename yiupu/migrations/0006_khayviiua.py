@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Khayviiua',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('fmuidqqdq', models.OneToOneField(null=True, related_name='+', to='tyfslutb.Ynbpgqn')),
+                ('fmuidqqdq', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='tyfslutb.Ynbpgqn')),
             ],
         ),
     ]

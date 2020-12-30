@@ -30,7 +30,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='begquxerkm',
             name='uxdnq',
-            field=models.OneToOneField(null=True, related_name='+', to='irmtbds.Rqikftw'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='irmtbds.Rqikftw'),
         ),
         migrations.AddField(
             model_name='eezxvbbvmn',

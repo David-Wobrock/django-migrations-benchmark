@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Gbmslrhm',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('wftcam', models.ForeignKey(null=True, related_name='+', to='yiupu.Zzsheqzf')),
+                ('wftcam', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='yiupu.Zzsheqzf')),
             ],
         ),
         migrations.AddField(

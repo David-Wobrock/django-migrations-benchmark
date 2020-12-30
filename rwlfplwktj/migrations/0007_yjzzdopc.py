@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Yjzzdopc',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('eeagp', models.ForeignKey(null=True, related_name='+', to='rqwywo.Gkiwtx')),
+                ('eeagp', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='rqwywo.Gkiwtx')),
             ],
         ),
     ]

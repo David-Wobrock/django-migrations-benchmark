@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
             name='Vnoruiao',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('gtrfnedgq', models.OneToOneField(null=True, related_name='+', to='foijx.Cnkdojs')),
+                ('gtrfnedgq', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='foijx.Cnkdojs')),
             ],
         ),
         migrations.RemoveField(
@@ -45,6 +45,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='qahkfonewx',
             name='ditijdjnl',
-            field=models.OneToOneField(null=True, related_name='+', to='gbsaqmaxu.Vvyni'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='gbsaqmaxu.Vvyni'),
         ),
     ]

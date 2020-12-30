@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
             name='Uxswpekqlt',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('febtep', models.OneToOneField(null=True, related_name='+', to='cohutfvb.Ecgjvad')),
+                ('febtep', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cohutfvb.Ecgjvad')),
             ],
         ),
         migrations.RemoveField(

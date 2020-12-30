@@ -15,11 +15,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='knkhh',
             name='vubojs',
-            field=models.OneToOneField(null=True, related_name='+', to='digmcd.Untgafvod'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='digmcd.Untgafvod'),
         ),
         migrations.AddField(
             model_name='glbtwo',
             name='hdlrbpj',
-            field=models.OneToOneField(null=True, related_name='+', to='digmcd.Gtekbplhr'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='digmcd.Gtekbplhr'),
         ),
     ]

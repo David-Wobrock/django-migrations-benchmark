@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
             name='Wmvmz',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('lincd', models.ForeignKey(null=True, related_name='+', to='zavygg.Gbmslrhm')),
+                ('lincd', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zavygg.Gbmslrhm')),
             ],
         ),
         migrations.DeleteModel(
@@ -35,6 +35,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='uxpep',
             name='uxbuqfdn',
-            field=models.OneToOneField(null=True, related_name='+', to='mjdxvqk.Ovbcnxcwyr'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='mjdxvqk.Ovbcnxcwyr'),
         ),
     ]

@@ -23,14 +23,14 @@ class Migration(migrations.Migration):
             name='Ktjsrtd',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('dauxp', models.ForeignKey(null=True, related_name='+', to='cohutfvb.Qpuji')),
+                ('dauxp', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cohutfvb.Qpuji')),
             ],
         ),
         migrations.CreateModel(
             name='Sehvi',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('wspsk', models.OneToOneField(null=True, related_name='+', to='foijx.Wrafoshzom')),
+                ('wspsk', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='foijx.Wrafoshzom')),
             ],
         ),
     ]

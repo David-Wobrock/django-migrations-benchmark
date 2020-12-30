@@ -24,6 +24,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='lshmrghvzw',
             name='olicbgstaw',
-            field=models.OneToOneField(null=True, related_name='+', to='rqwywo.Gkiwtx'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='rqwywo.Gkiwtx'),
         ),
     ]

@@ -20,6 +20,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ufrkff',
             name='wxfwt',
-            field=models.ForeignKey(null=True, related_name='+', to='geemkrwi.Mxvmqmhku'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='geemkrwi.Mxvmqmhku'),
         ),
     ]

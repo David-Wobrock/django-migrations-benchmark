@@ -33,11 +33,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='uzdthbetj',
             name='ylfksaoydd',
-            field=models.OneToOneField(null=True, related_name='+', to='pnxyvqx.Fmrensoxi'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='pnxyvqx.Fmrensoxi'),
         ),
         migrations.AddField(
             model_name='zfpgchkbaz',
             name='ersxh',
-            field=models.ForeignKey(null=True, related_name='+', to='ukxhbn.Xqerjvxatp'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ukxhbn.Xqerjvxatp'),
         ),
     ]

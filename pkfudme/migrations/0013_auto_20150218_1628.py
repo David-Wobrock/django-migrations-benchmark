@@ -28,11 +28,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='heehdxfqyb',
             name='hbttv',
-            field=models.ForeignKey(null=True, related_name='+', to='ysgxuyu.Bmovnbnmed'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ysgxuyu.Bmovnbnmed'),
         ),
         migrations.AddField(
             model_name='jrppdzds',
             name='trqdjcjqq',
-            field=models.OneToOneField(null=True, related_name='+', to='pkfudme.Ewxxluebq'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='pkfudme.Ewxxluebq'),
         ),
     ]

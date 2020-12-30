@@ -24,11 +24,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='krbaxhjpkp',
             name='pgyav',
-            field=models.OneToOneField(null=True, related_name='+', to='avwpufexob.Aunuwoo'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='avwpufexob.Aunuwoo'),
         ),
         migrations.AddField(
             model_name='mqnavvvb',
             name='akttuw',
-            field=models.OneToOneField(null=True, related_name='+', to='cuspknbh.Mwigq'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cuspknbh.Mwigq'),
         ),
     ]

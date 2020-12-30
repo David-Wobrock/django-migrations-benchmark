@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='mukbde',
             name='lzkmi',
-            field=models.ForeignKey(null=True, related_name='+', to='qclaxc.Jvoopceqsv'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='qclaxc.Jvoopceqsv'),
         ),
         migrations.AddField(
             model_name='ybcxw',

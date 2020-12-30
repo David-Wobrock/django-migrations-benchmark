@@ -16,16 +16,16 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='hcblxrqme',
             name='ztqdo',
-            field=models.ForeignKey(null=True, related_name='+', to='wyxbcga.Eezxvbbvmn'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='wyxbcga.Eezxvbbvmn'),
         ),
         migrations.AddField(
             model_name='ewxxluebq',
             name='sqyiv',
-            field=models.ForeignKey(null=True, related_name='+', to='wyxbcga.Rsaiyadejv'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='wyxbcga.Rsaiyadejv'),
         ),
         migrations.AddField(
             model_name='dbpile',
             name='yamkggnk',
-            field=models.OneToOneField(null=True, related_name='+', to='foijx.Qrwsj'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='foijx.Qrwsj'),
         ),
     ]

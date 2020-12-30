@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
             name='Skeciabygt',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('blyex', models.ForeignKey(null=True, related_name='+', to='cuspknbh.Mwigq')),
+                ('blyex', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cuspknbh.Mwigq')),
             ],
         ),
         migrations.RemoveField(
@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='guhhjm',
             name='kgvpwpy',
-            field=models.OneToOneField(null=True, related_name='+', to='zsskgviadw.Ylpjiaq'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='zsskgviadw.Ylpjiaq'),
         ),
         migrations.DeleteModel(
             name='Ddzxkrvtfd',

@@ -66,7 +66,7 @@ class Migration(migrations.Migration):
             name='Xgsseizbpr',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('ylttnfe', models.ForeignKey(null=True, related_name='+', to='adlorvp.Frzvg')),
+                ('ylttnfe', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='adlorvp.Frzvg')),
             ],
         ),
     ]

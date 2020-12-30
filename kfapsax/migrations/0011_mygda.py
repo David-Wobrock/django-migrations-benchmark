@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Mygda',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('csipywcnvu', models.OneToOneField(null=True, related_name='+', to='zhavbmq.Ybkewg')),
+                ('csipywcnvu', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='zhavbmq.Ybkewg')),
             ],
         ),
     ]

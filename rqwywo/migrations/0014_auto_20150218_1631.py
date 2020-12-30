@@ -33,16 +33,16 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='gkiwtx',
             name='pwsnbpros',
-            field=models.OneToOneField(null=True, related_name='+', to='cohutfvb.Crzqih'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cohutfvb.Crzqih'),
         ),
         migrations.AddField(
             model_name='jsvynw',
             name='ommyuemmir',
-            field=models.OneToOneField(null=True, related_name='+', to='rwlfplwktj.Yjzzdopc'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='rwlfplwktj.Yjzzdopc'),
         ),
         migrations.AddField(
             model_name='uxpep',
             name='jjioaflyak',
-            field=models.OneToOneField(null=True, related_name='+', to='foijx.Flwuyjdlel'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='foijx.Flwuyjdlel'),
         ),
     ]

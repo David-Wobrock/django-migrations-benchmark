@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Estwpd',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('kbqdngbtb', models.OneToOneField(null=True, related_name='+', to='foijx.Cnkdojs')),
+                ('kbqdngbtb', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='foijx.Cnkdojs')),
             ],
         ),
     ]

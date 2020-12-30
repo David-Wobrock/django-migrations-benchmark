@@ -37,28 +37,28 @@ class Migration(migrations.Migration):
             name='Jydvnf',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('xwilqwztoj', models.ForeignKey(null=True, related_name='+', to='qclaxc.Pmcbxoetr')),
+                ('xwilqwztoj', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='qclaxc.Pmcbxoetr')),
             ],
         ),
         migrations.CreateModel(
             name='Kihvqrmtr',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('llmloxxmss', models.ForeignKey(null=True, related_name='+', to='gcyjx.Ivcsuscyb')),
+                ('llmloxxmss', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='gcyjx.Ivcsuscyb')),
             ],
         ),
         migrations.CreateModel(
             name='Ligxr',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('rgamodph', models.OneToOneField(null=True, related_name='+', to='ruvaymw.Owamswc')),
+                ('rgamodph', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ruvaymw.Owamswc')),
             ],
         ),
         migrations.CreateModel(
             name='Nzfoyhj',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('hwflnm', models.ForeignKey(null=True, related_name='+', to='yiupu.Fzmiecxuo')),
+                ('hwflnm', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='yiupu.Fzmiecxuo')),
             ],
         ),
         migrations.CreateModel(
@@ -72,7 +72,7 @@ class Migration(migrations.Migration):
             name='Ssalb',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('eelqndo', models.ForeignKey(null=True, related_name='+', to='wyxbcga.Ojshxdt')),
+                ('eelqndo', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='wyxbcga.Ojshxdt')),
             ],
         ),
     ]

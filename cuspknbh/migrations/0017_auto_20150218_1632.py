@@ -20,6 +20,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='estwpd',
             name='fjcmnwx',
-            field=models.OneToOneField(null=True, related_name='+', to='zsskgviadw.Ylpjiaq'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='zsskgviadw.Ylpjiaq'),
         ),
     ]

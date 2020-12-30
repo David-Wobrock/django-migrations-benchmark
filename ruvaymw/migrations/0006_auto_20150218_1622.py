@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='faqagt',
             name='vtnbt',
-            field=models.ForeignKey(null=True, related_name='+', to='esznwrr.Vppjpa'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='esznwrr.Vppjpa'),
         ),
         migrations.AddField(
             model_name='ndhcup',
@@ -34,6 +34,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='wmifd',
             name='ztdwwxnoeo',
-            field=models.ForeignKey(null=True, related_name='+', to='cmsrp.Ncysy'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cmsrp.Ncysy'),
         ),
     ]

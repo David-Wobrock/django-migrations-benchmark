@@ -36,7 +36,7 @@ class Migration(migrations.Migration):
             name='Myohdht',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('lybemykxx', models.OneToOneField(null=True, related_name='+', to='mntrwrm.Rbhubw')),
+                ('lybemykxx', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='mntrwrm.Rbhubw')),
             ],
         ),
         migrations.CreateModel(
@@ -50,7 +50,7 @@ class Migration(migrations.Migration):
             name='Qibygpddzw',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('hachwpnpia', models.ForeignKey(null=True, related_name='+', to='yiupu.Jpmwh')),
+                ('hachwpnpia', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='yiupu.Jpmwh')),
             ],
         ),
         migrations.CreateModel(
@@ -78,7 +78,7 @@ class Migration(migrations.Migration):
             name='Wjxepwd',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('ppndehjbmf', models.ForeignKey(null=True, related_name='+', to='adlorvp.Tpxhcuni')),
+                ('ppndehjbmf', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='adlorvp.Tpxhcuni')),
             ],
         ),
     ]

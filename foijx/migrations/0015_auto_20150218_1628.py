@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='abmhnczd',
             name='nflur',
-            field=models.ForeignKey(null=True, related_name='+', to='zhavbmq.Rnddmd'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zhavbmq.Rnddmd'),
         ),
         migrations.AddField(
             model_name='cnkdojs',

@@ -23,6 +23,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='shtlozkm',
             name='wjznogs',
-            field=models.OneToOneField(null=True, related_name='+', to='ysgxuyu.Bmovnbnmed'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ysgxuyu.Bmovnbnmed'),
         ),
     ]

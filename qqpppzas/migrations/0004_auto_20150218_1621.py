@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='fzhxya',
             name='szryc',
-            field=models.OneToOneField(null=True, related_name='+', to='burhjvc.Pdzdhpq'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='burhjvc.Pdzdhpq'),
         ),
         migrations.AddField(
             model_name='mukbde',
@@ -26,6 +26,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='vdscpy',
             name='mxjhvnbbqm',
-            field=models.OneToOneField(null=True, related_name='+', to='cuspknbh.Glbtwo'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cuspknbh.Glbtwo'),
         ),
     ]

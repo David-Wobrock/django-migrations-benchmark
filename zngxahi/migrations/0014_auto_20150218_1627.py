@@ -42,11 +42,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='vnoruiao',
             name='filiupvrkr',
-            field=models.ForeignKey(null=True, related_name='+', to='epbbfwihj.Uzdthbetj'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='epbbfwihj.Uzdthbetj'),
         ),
         migrations.AddField(
             model_name='xrrtgf',
             name='prtbwzl',
-            field=models.OneToOneField(null=True, related_name='+', to='joavhqi.Oyjnlgzy'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='joavhqi.Oyjnlgzy'),
         ),
     ]

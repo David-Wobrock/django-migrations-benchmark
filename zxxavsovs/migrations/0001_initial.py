@@ -29,14 +29,14 @@ class Migration(migrations.Migration):
             name='Iyfiu',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('druuyy', models.OneToOneField(null=True, related_name='+', to='mjdxvqk.Ovbcnxcwyr')),
+                ('druuyy', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='mjdxvqk.Ovbcnxcwyr')),
             ],
         ),
         migrations.CreateModel(
             name='Kiikphbz',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('wtcqvpcl', models.OneToOneField(null=True, related_name='+', to='esznwrr.Vppjpa')),
+                ('wtcqvpcl', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='esznwrr.Vppjpa')),
             ],
         ),
         migrations.CreateModel(
@@ -49,6 +49,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='hhmcp',
             name='ruddjkf',
-            field=models.ForeignKey(null=True, related_name='+', to='zxxavsovs.Yjuyutcqq'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zxxavsovs.Yjuyutcqq'),
         ),
     ]

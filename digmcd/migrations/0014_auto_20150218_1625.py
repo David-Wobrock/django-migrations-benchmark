@@ -39,7 +39,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='gtekbplhr',
             name='npzyjho',
-            field=models.ForeignKey(null=True, related_name='+', to='joavhqi.Uodtjnez'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='joavhqi.Uodtjnez'),
         ),
         migrations.DeleteModel(
             name='Gxovs',

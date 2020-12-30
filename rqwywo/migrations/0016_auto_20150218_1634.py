@@ -18,6 +18,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='gkiwtx',
             name='akbmd',
-            field=models.ForeignKey(null=True, related_name='+', to='apbqku.Ztmubrfn'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='apbqku.Ztmubrfn'),
         ),
     ]

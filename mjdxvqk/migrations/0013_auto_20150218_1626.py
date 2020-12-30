@@ -23,11 +23,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='edugsywcj',
             name='oseje',
-            field=models.OneToOneField(null=True, related_name='+', to='zxxavsovs.Fiellmltob'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='zxxavsovs.Fiellmltob'),
         ),
         migrations.AddField(
             model_name='xglneni',
             name='ltnmc',
-            field=models.OneToOneField(null=True, related_name='+', to='cuspknbh.Djbbtxk'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cuspknbh.Djbbtxk'),
         ),
     ]

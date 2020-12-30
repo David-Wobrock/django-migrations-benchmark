@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
             name='Sysnlv',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('ybqvecvb', models.OneToOneField(null=True, related_name='+', to='apbqku.Tjpxiu')),
+                ('ybqvecvb', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='apbqku.Tjpxiu')),
             ],
         ),
         migrations.RemoveField(
@@ -27,6 +27,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='zfpgchkbaz',
             name='axmnlbmf',
-            field=models.ForeignKey(null=True, related_name='+', to='ladqux.Yfyadqk'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ladqux.Yfyadqk'),
         ),
     ]

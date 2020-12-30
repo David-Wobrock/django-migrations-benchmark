@@ -25,56 +25,56 @@ class Migration(migrations.Migration):
             name='Fzhxya',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('mvaeauil', models.OneToOneField(null=True, related_name='+', to='zxxavsovs.Fiellmltob')),
+                ('mvaeauil', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='zxxavsovs.Fiellmltob')),
             ],
         ),
         migrations.CreateModel(
             name='Igtbspg',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('dsqhvnp', models.OneToOneField(null=True, related_name='+', to='glcmkwkzv.Iwzqe')),
+                ('dsqhvnp', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='glcmkwkzv.Iwzqe')),
             ],
         ),
         migrations.CreateModel(
             name='Jchddfi',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('uteyef', models.ForeignKey(null=True, related_name='+', to='geemkrwi.Egvtran')),
+                ('uteyef', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='geemkrwi.Egvtran')),
             ],
         ),
         migrations.CreateModel(
             name='Lrqwbz',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('gqbcodrudr', models.OneToOneField(null=True, related_name='+', to='kfapsax.Sehvi')),
+                ('gqbcodrudr', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='kfapsax.Sehvi')),
             ],
         ),
         migrations.CreateModel(
             name='Mukbde',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('laticxbs', models.OneToOneField(null=True, related_name='+', to='yiupu.Fzmiecxuo')),
+                ('laticxbs', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='yiupu.Fzmiecxuo')),
             ],
         ),
         migrations.CreateModel(
             name='Prljmjou',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('okelu', models.OneToOneField(null=True, related_name='+', to='wulegwfs.Txgqxz')),
+                ('okelu', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='wulegwfs.Txgqxz')),
             ],
         ),
         migrations.CreateModel(
             name='Shtlozkm',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('zwsomb', models.ForeignKey(null=True, related_name='+', to='wulegwfs.Txgqxz')),
+                ('zwsomb', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='wulegwfs.Txgqxz')),
             ],
         ),
         migrations.CreateModel(
             name='Vdscpy',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('efspwnch', models.OneToOneField(null=True, related_name='+', to='rqwywo.Huqprglqp')),
+                ('efspwnch', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='rqwywo.Huqprglqp')),
             ],
         ),
         migrations.CreateModel(

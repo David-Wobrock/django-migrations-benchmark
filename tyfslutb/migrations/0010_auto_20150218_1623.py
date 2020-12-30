@@ -16,11 +16,11 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ihswfvupi',
             name='fmuxala',
-            field=models.ForeignKey(null=True, related_name='+', to='yiupu.Zzsheqzf'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='yiupu.Zzsheqzf'),
         ),
         migrations.AddField(
             model_name='qcwbo',
             name='nevqtm',
-            field=models.ForeignKey(null=True, related_name='+', to='cmsrp.Cpmqvzn'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cmsrp.Cpmqvzn'),
         ),
     ]

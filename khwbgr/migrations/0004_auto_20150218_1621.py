@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Ywojvtbwa',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('evkjp', models.OneToOneField(null=True, related_name='+', to='ukxhbn.Ikuwr')),
+                ('evkjp', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ukxhbn.Ikuwr')),
             ],
         ),
         migrations.DeleteModel(

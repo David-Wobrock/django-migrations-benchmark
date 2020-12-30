@@ -22,6 +22,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='yymzlvsz',
             name='apkorgjb',
-            field=models.OneToOneField(null=True, related_name='+', to='gtfgy.Wnhvelxdeb'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='gtfgy.Wnhvelxdeb'),
         ),
     ]

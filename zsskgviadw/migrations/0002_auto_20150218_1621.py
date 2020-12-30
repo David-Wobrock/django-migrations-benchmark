@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Ltlsozji',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('fzlko', models.ForeignKey(null=True, related_name='+', to='zngxahi.Kbgdzldxz')),
+                ('fzlko', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zngxahi.Kbgdzldxz')),
             ],
         ),
         migrations.RemoveField(

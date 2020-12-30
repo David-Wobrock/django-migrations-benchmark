@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
             name='Iznpghp',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sgafrav', models.OneToOneField(null=True, related_name='+', to='ysgxuyu.Bmovnbnmed')),
+                ('sgafrav', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ysgxuyu.Bmovnbnmed')),
             ],
         ),
         migrations.AddField(

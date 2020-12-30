@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Ckree',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('yqfsn', models.OneToOneField(null=True, related_name='+', to='glcmkwkzv.Fbytmhf')),
+                ('yqfsn', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='glcmkwkzv.Fbytmhf')),
             ],
         ),
         migrations.RemoveField(

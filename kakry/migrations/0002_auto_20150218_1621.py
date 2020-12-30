@@ -23,26 +23,26 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='mfivvxhds',
             name='dlcolp',
-            field=models.ForeignKey(null=True, related_name='+', to='qclaxc.Rmtucrztaq'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='qclaxc.Rmtucrztaq'),
         ),
         migrations.AddField(
             model_name='lmxjryphro',
             name='kkqmbqbmvt',
-            field=models.OneToOneField(null=True, related_name='+', to='emncdxt.Yvgnpangr'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='emncdxt.Yvgnpangr'),
         ),
         migrations.AddField(
             model_name='kiurw',
             name='fjzlxklz',
-            field=models.ForeignKey(null=True, related_name='+', to='irmtbds.Rqikftw'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='irmtbds.Rqikftw'),
         ),
         migrations.AddField(
             model_name='flfbdpu',
             name='puzjw',
-            field=models.OneToOneField(null=True, related_name='+', to='ftcfrcnas.Iwhkq'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ftcfrcnas.Iwhkq'),
         ),
         migrations.AddField(
             model_name='ajbkovws',
             name='rlsejr',
-            field=models.ForeignKey(null=True, related_name='+', to='cuspknbh.Djbbtxk'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cuspknbh.Djbbtxk'),
         ),
     ]

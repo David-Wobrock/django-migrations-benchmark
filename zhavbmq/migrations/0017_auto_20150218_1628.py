@@ -32,12 +32,12 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='hmaopvcufb',
             name='wnxwji',
-            field=models.OneToOneField(null=True, related_name='+', to='cmsrp.Vlmfay'),
+            field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='cmsrp.Vlmfay'),
         ),
         migrations.AddField(
             model_name='rnddmd',
             name='utxzk',
-            field=models.ForeignKey(null=True, related_name='+', to='ysgxuyu.Omtmse'),
+            field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='ysgxuyu.Omtmse'),
         ),
         migrations.AddField(
             model_name='ybkewg',

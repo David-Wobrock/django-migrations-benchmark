@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='Ftwph',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('gatahehq', models.OneToOneField(null=True, related_name='+', to='ruvaymw.Swanlanqxn')),
+                ('gatahehq', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='ruvaymw.Swanlanqxn')),
             ],
         ),
     ]

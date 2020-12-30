@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             name='Ndmxpw',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('narpapscx', models.ForeignKey(null=True, related_name='+', to='cmsrp.Ncysy')),
+                ('narpapscx', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='cmsrp.Ncysy')),
             ],
         ),
         migrations.CreateModel(
