@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
             name='rtmpcyteit',
             field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='kakry.Aefqhqkmm'),
         ),
-        migrations.DeleteModel(
-            name='Vzqlh',
-        ),
+        #migrations.DeleteModel(
+        #    name='Vzqlh',
+        #),
     ]

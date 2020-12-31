@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('fejusiz', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='pnxyvqx.Nenfvguk')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Dtpkzlh',
-        ),
+        #migrations.DeleteModel(
+        #    name='Dtpkzlh',
+        #),
     ]

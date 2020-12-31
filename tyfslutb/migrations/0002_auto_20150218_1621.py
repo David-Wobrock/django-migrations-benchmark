@@ -11,6 +11,10 @@ class Migration(migrations.Migration):
         ('tyfslutb', '0001_initial'),
     ]
 
+    run_before = [
+        ('yiupu', '0003_auto_20150218_1621'),
+    ]
+
     operations = [
         migrations.CreateModel(
             name='Ckvpx',

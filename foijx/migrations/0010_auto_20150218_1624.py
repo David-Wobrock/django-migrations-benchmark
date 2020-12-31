@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
             model_name='qrwsj',
             name='tbcua',
         ),
-        migrations.DeleteModel(
-            name='Wrafoshzom',
-        ),
+        #migrations.DeleteModel(
+        #    name='Wrafoshzom',
+        #),
     ]

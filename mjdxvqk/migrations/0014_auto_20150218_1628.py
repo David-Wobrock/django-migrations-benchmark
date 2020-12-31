@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
             name='ekuemci',
             field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='avwpufexob.Vxucuqwa'),
         ),
-        migrations.DeleteModel(
-            name='Xglneni',
-        ),
+        #migrations.DeleteModel(
+        #    name='Xglneni',
+        #),
     ]

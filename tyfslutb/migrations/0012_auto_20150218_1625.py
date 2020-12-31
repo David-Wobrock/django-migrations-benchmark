@@ -37,7 +37,7 @@ class Migration(migrations.Migration):
             name='lwczoav',
             field=models.CharField(default='', max_length=129),
         ),
-        migrations.DeleteModel(
-            name='Cvzmphnk',
-        ),
+        #migrations.DeleteModel(
+        #    name='Cvzmphnk',
+        #),
     ]

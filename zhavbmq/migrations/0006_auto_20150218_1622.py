@@ -19,9 +19,9 @@ class Migration(migrations.Migration):
                 ('lnioihvte', models.CharField(default='', max_length=33)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Jznpks',
-        ),
+        #migrations.DeleteModel(
+        #    name='Jznpks',
+        #),
         migrations.RemoveField(
             model_name='bdniaupe',
             name='swdbw',

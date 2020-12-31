@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('prcqiis', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='esznwrr.Kgrzxxm')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Yxsnty',
-        ),
+        #migrations.DeleteModel(
+        #    name='Yxsnty',
+        #),
     ]

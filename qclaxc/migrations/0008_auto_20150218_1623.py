@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             model_name='qindcumiy',
             name='rwtwpy',
         ),
-        migrations.DeleteModel(
-            name='Qindcumiy',
-        ),
+        #migrations.DeleteModel(
+        #    name='Qindcumiy',
+        #),
     ]

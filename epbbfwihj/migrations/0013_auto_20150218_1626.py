@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
             name='jlias',
             field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='irmtbds.Rqikftw'),
         ),
-        migrations.DeleteModel(
-            name='Wcklq',
-        ),
+        #migrations.DeleteModel(
+        #    name='Wcklq',
+        #),
     ]

@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('qhdmcyw', models.CharField(default='', max_length=24)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Sroqtodsnf',
-        ),
+        #migrations.DeleteModel(
+        #    name='Sroqtodsnf',
+        #),
     ]

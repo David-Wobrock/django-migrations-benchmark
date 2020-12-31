@@ -20,9 +20,9 @@ class Migration(migrations.Migration):
                 ('lincd', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='zavygg.Gbmslrhm')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Xaszfxobvf',
-        ),
+        #migrations.DeleteModel(
+        #    name='Xaszfxobvf',
+        #),
         migrations.RemoveField(
             model_name='huqprglqp',
             name='whhdjgrl',

@@ -21,7 +21,7 @@ class Migration(migrations.Migration):
             name='pozefnkorz',
             field=models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='digmcd.Gxovs'),
         ),
-        migrations.DeleteModel(
-            name='Jrgrccoxvv',
-        ),
+        #migrations.DeleteModel(
+        #    name='Jrgrccoxvv',
+        #),
     ]

@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             model_name='snjsz',
             name='qsntdomu',
         ),
-        migrations.DeleteModel(
-            name='Snjsz',
-        ),
+        #migrations.DeleteModel(
+        #    name='Snjsz',
+        #),
     ]

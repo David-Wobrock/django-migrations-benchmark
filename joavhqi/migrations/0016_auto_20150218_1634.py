@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
             name='jgdrzj',
             field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='uivaguf.Zwjgfcdi'),
         ),
-        migrations.DeleteModel(
-            name='Uodtjnez',
-        ),
+        #migrations.DeleteModel(
+        #    name='Uodtjnez',
+        #),
     ]

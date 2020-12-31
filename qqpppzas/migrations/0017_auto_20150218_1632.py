@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
             name='yxgvh',
             field=models.IntegerField(default=0),
         ),
-        migrations.DeleteModel(
-            name='Tqlaa',
-        ),
+        #migrations.DeleteModel(
+        #    name='Tqlaa',
+        #),
     ]

@@ -34,7 +34,7 @@ class Migration(migrations.Migration):
             name='samswfwyn',
             field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='gtfgy.Rqjyygz'),
         ),
-        migrations.DeleteModel(
-            name='Vmnilim',
-        ),
+        #migrations.DeleteModel(
+        #    name='Vmnilim',
+        #),
     ]

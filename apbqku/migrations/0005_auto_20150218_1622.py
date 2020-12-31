@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('egyzjckxd', models.IntegerField(default=0)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Klgmvpd',
-        ),
+        #migrations.DeleteModel(
+        #    name='Klgmvpd',
+        #),
     ]

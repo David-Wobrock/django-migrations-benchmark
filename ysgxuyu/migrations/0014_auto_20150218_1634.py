@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
             name='xorsf',
             field=models.CharField(default='', max_length=184),
         ),
-        migrations.DeleteModel(
-            name='Eppkc',
-        ),
+        #migrations.DeleteModel(
+        #    name='Eppkc',
+        #),
     ]

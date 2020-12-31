@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             model_name='ndhcup',
             name='udvzu',
         ),
-        migrations.DeleteModel(
-            name='Ndhcup',
-        ),
+        #migrations.DeleteModel(
+        #    name='Ndhcup',
+        #),
     ]

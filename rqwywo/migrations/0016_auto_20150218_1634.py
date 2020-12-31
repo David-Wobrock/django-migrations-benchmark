@@ -12,9 +12,9 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.DeleteModel(
-            name='Wmvmz',
-        ),
+        #migrations.DeleteModel(
+        #    name='Wmvmz',
+        #),
         migrations.AddField(
             model_name='gkiwtx',
             name='akbmd',

@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
             name='qcbtpghkq',
             field=models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='kakry.Ajbkovws'),
         ),
-        migrations.DeleteModel(
-            name='Afoportru',
-        ),
+        #migrations.DeleteModel(
+        #    name='Afoportru',
+        #),
     ]

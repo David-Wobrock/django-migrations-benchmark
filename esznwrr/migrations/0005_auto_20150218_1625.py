@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('vjwqsryeb', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='joavhqi.Oyjnlgzy')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Cepov',
-        ),
+        #migrations.DeleteModel(
+        #    name='Cepov',
+        #),
     ]

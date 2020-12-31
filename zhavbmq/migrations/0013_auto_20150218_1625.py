@@ -23,7 +23,7 @@ class Migration(migrations.Migration):
             model_name='rhhbgxx',
             name='owhkjq',
         ),
-        migrations.DeleteModel(
-            name='Rhhbgxx',
-        ),
+        #migrations.DeleteModel(
+        #    name='Rhhbgxx',
+        #),
     ]

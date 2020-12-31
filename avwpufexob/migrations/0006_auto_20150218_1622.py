@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             model_name='ubpmj',
             name='ktwasnimoe',
         ),
-        migrations.DeleteModel(
-            name='Ubpmj',
-        ),
+        #migrations.DeleteModel(
+        #    name='Ubpmj',
+        #),
     ]

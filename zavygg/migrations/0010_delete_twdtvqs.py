@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.DeleteModel(
-            name='Twdtvqs',
-        ),
+        #migrations.DeleteModel(
+        #    name='Twdtvqs',
+        #),
     ]

@@ -12,9 +12,9 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.DeleteModel(
-            name='Kpjlirt',
-        ),
+        #migrations.DeleteModel(
+        #    name='Kpjlirt',
+        #),
         migrations.RemoveField(
             model_name='begquxerkm',
             name='eyasqv',

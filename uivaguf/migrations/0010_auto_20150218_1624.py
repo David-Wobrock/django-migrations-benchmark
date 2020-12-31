@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
             name='wuhvaikk',
             field=models.IntegerField(default=0),
         ),
-        migrations.DeleteModel(
-            name='Opwgwxncp',
-        ),
+        #migrations.DeleteModel(
+        #    name='Opwgwxncp',
+        #),
     ]

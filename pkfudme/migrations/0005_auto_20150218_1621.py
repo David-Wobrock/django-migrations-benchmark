@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
             name='tlzwts',
             field=models.IntegerField(default=0),
         ),
-        migrations.DeleteModel(
-            name='Hcblxrqme',
-        ),
+        #migrations.DeleteModel(
+        #    name='Hcblxrqme',
+        #),
     ]

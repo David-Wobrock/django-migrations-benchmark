@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('zcwgna', models.IntegerField(default=0)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Kgopo',
-        ),
+        #migrations.DeleteModel(
+        #    name='Kgopo',
+        #),
     ]

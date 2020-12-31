@@ -18,9 +18,9 @@ class Migration(migrations.Migration):
                 ('lfmymwpdk', models.CharField(default='', max_length=211)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Pmcbxoetr',
-        ),
+        #migrations.DeleteModel(
+        #    name='Pmcbxoetr',
+        #),
         migrations.RemoveField(
             model_name='jvoopceqsv',
             name='gzzkivnwgi',

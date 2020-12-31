@@ -17,9 +17,9 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Xzicjkogl',
-        ),
+        #migrations.DeleteModel(
+        #    name='Xzicjkogl',
+        #),
         migrations.AddField(
             model_name='xevahddk',
             name='drxyylkqu',

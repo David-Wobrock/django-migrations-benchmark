@@ -19,9 +19,9 @@ class Migration(migrations.Migration):
                 ('ffobkibqn', models.IntegerField(default=0)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Nznejqg',
-        ),
+        #migrations.DeleteModel(
+        #    name='Nznejqg',
+        #),
         migrations.AddField(
             model_name='qqktwujdfq',
             name='uecimvq',

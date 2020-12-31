@@ -20,9 +20,9 @@ class Migration(migrations.Migration):
                 ('snjlwam', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='wulegwfs.Yxsnty')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Qimzrcecmn',
-        ),
+        #migrations.DeleteModel(
+        #    name='Qimzrcecmn',
+        #),
         migrations.RemoveField(
             model_name='eezxvbbvmn',
             name='cjiikmfzn',

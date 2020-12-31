@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             model_name='symqs',
             name='cuean',
         ),
-        migrations.DeleteModel(
-            name='Symqs',
-        ),
+        #migrations.DeleteModel(
+        #    name='Symqs',
+        #),
     ]

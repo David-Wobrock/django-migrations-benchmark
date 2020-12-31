@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             model_name='mfivvxhds',
             name='erclh',
         ),
-        migrations.DeleteModel(
-            name='Mfivvxhds',
-        ),
+        #migrations.DeleteModel(
+        #    name='Mfivvxhds',
+        #),
     ]

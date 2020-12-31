@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
             model_name='xpmnn',
             name='moifgm',
         ),
-        migrations.DeleteModel(
-            name='Xpmnn',
-        ),
+        #migrations.DeleteModel(
+        #    name='Xpmnn',
+        #),
     ]

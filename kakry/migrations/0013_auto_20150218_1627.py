@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             name='kensvdnpij',
             field=models.IntegerField(default=0),
         ),
-        migrations.DeleteModel(
-            name='Flfbdpu',
-        ),
+        #migrations.DeleteModel(
+        #    name='Flfbdpu',
+        #),
     ]

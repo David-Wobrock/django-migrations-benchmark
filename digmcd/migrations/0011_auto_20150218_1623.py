@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
             name='pwgdlxtg',
             field=models.IntegerField(default=0),
         ),
-        migrations.DeleteModel(
-            name='Arqcdv',
-        ),
+        #migrations.DeleteModel(
+        #    name='Arqcdv',
+        #),
     ]

@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('zfjpb', models.IntegerField(default=0)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Lsmxy',
-        ),
+        #migrations.DeleteModel(
+        #    name='Lsmxy',
+        #),
     ]

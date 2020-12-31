@@ -19,9 +19,9 @@ class Migration(migrations.Migration):
                 ('mhctlvnto', models.ForeignKey(on_delete=models.CASCADE, null=True, related_name='+', to='pnxyvqx.Nenfvguk')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Yicalotegs',
-        ),
+        #migrations.DeleteModel(
+        #    name='Yicalotegs',
+        #),
         migrations.RemoveField(
             model_name='mwigq',
             name='shjxtfggcn',

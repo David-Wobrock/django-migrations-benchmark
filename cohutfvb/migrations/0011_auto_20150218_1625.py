@@ -11,9 +11,9 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.DeleteModel(
-            name='Sonmvoj',
-        ),
+        #migrations.DeleteModel(
+        #    name='Sonmvoj',
+        #),
         migrations.RemoveField(
             model_name='ecgjvad',
             name='zxnnutgo',

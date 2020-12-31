@@ -19,9 +19,9 @@ class Migration(migrations.Migration):
                 ('mciutq', models.OneToOneField(on_delete=models.CASCADE, null=True, related_name='+', to='wawqcpvrz.Xivomw')),
             ],
         ),
-        migrations.DeleteModel(
-            name='Xtwdqfv',
-        ),
+        #migrations.DeleteModel(
+        #    name='Xtwdqfv',
+        #),
         migrations.AddField(
             model_name='wilsmoea',
             name='xguaklb',

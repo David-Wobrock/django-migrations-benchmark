@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('ntmeao', models.CharField(default='', max_length=88)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Miakjx',
-        ),
+        #migrations.DeleteModel(
+        #    name='Miakjx',
+        #),
     ]

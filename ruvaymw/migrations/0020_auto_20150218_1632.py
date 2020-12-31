@@ -24,7 +24,7 @@ class Migration(migrations.Migration):
             name='tbtrybc',
             field=models.CharField(default='', max_length=191),
         ),
-        migrations.DeleteModel(
-            name='Fxsiyvw',
-        ),
+        #migrations.DeleteModel(
+        #    name='Fxsiyvw',
+        #),
     ]

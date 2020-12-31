@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
             name='kjhiytbp',
             field=models.IntegerField(default=0),
         ),
-        migrations.DeleteModel(
-            name='Yiifw',
-        ),
+        #migrations.DeleteModel(
+        #    name='Yiifw',
+        #),
     ]

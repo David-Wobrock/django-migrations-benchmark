@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             model_name='mxfnrc',
             name='vwngisguf',
         ),
-        migrations.DeleteModel(
-            name='Mxfnrc',
-        ),
+        #migrations.DeleteModel(
+        #    name='Mxfnrc',
+        #),
     ]

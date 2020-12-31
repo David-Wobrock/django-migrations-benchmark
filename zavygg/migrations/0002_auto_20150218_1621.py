@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('mdgzwhpjsq', models.IntegerField(default=0)),
             ],
         ),
-        migrations.DeleteModel(
-            name='Dipxet',
-        ),
+        #migrations.DeleteModel(
+        #    name='Dipxet',
+        #),
     ]

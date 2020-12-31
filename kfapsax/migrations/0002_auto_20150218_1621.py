@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             model_name='ktjsrtd',
             name='dauxp',
         ),
-        migrations.DeleteModel(
-            name='Ktjsrtd',
-        ),
+        #migrations.DeleteModel(
+        #    name='Ktjsrtd',
+        #),
     ]

@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             model_name='dvkdj',
             name='gsscvcgrm',
         ),
-        migrations.DeleteModel(
-            name='Dvkdj',
-        ),
+        #migrations.DeleteModel(
+        #    name='Dvkdj',
+        #),
     ]
