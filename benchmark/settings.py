@@ -148,3 +148,5 @@ INSTALLED_APPS = [
     'yiupu',
     'uivaguf',
 ]
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
